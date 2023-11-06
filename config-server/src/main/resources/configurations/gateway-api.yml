@@ -1,0 +1,28 @@
+server:
+  port: 8222
+
+spring:
+  application:
+    name: gateway-api
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+      routes:
+        - id: albums
+          uri: http://localhost:8070
+          predicates:
+            - Path=/api/v1/albums/**
+
+        - id: songs
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/v1/songs/**
+
+
+eureka:
+  client:
+    register-with-eureka: false

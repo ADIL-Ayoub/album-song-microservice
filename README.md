@@ -1,4 +1,5 @@
 This project is made to learn and practice microservices
+
 It contains 5 services:
 -> Discovery service: Created using Eureka Server
 -> API Gateway service: Created using Spring Cloud Gateway

@@ -3,3 +3,4 @@ spring:
     name: gateway-api
   config:
     import: optional:configserver:http://localhost:8888
+

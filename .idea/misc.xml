@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/album-service/pom.xml" />
         <option value="$PROJECT_DIR$/song-service/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,14 +1,20 @@
 spring:
   application:
     name: config-server
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/configurations
+        git:
+          uri: https://github.com/ADIL-Ayoub/album-song-config-repo
+
+#      server:
+#        native:
+#          search-locations: classpath:/configurations
 
 server:
   port: 8888
+
+application:
+  param:
+    a: 29
 

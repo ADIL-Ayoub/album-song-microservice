@@ -26,7 +26,15 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health , refresh , info"
 
+application:
+  param:
+    b: 5
 
 
 

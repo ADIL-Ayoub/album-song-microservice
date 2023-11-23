@@ -38,4 +38,12 @@ public class AlbumServiceImpl implements AlbumService {
                 .build();
         return albumWithSongs;
     }
+
+    @Override
+    public void delete(int id) {
+        Album album= albumRepository.findById(id).orElse(null);
+        if(album!=null){
+            albumRepository.delete(album);
+        }
+    }
 }

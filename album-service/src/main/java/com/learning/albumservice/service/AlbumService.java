@@ -12,4 +12,6 @@ public interface AlbumService {
     List<Album> getAll();
 
     AlbumWithSongs getAlbumWithSongs(Integer albumId);
+
+    void delete(int id);
 }

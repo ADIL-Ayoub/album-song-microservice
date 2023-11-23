@@ -22,5 +22,7 @@ public class GatewayApiApplication {
 												  DiscoveryLocatorProperties dlp){
 		return new DiscoveryClientRouteDefinitionLocator(rdc,dlp);
 	}
+
+
 }
 

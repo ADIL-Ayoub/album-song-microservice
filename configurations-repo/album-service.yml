@@ -21,4 +21,12 @@ spring:
       ddl-auto: create
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+  servlet:
+    multipart:
+      max-file-size: 5MB
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

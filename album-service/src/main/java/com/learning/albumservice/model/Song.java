@@ -14,4 +14,6 @@ public class Song {
     private String name;
     private Long views;
     private String duration;
+    private String type;
+    private String path;
 }

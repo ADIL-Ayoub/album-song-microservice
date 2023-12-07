@@ -1,4 +1,4 @@
-package com.learning.albumservice.model;
+package com.learning.albumservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,8 +13,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class MyImage {
+public class Image {
     @GeneratedValue @Id
     private int id;
-    private byte[] file;
+    private String fileName;
+    private String type;
+    private byte[] imageBytes;
 }

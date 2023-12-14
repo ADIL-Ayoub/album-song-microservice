@@ -1,5 +1,3 @@
-This project is made to learn and practice microservices ,It contains 5 services:
-
 This project is made to learn and practice microservices
 
 It contains 5 services:
@@ -12,4 +10,6 @@ It contains 5 services:
 
 -> Song service: A simple API that manage songs
 
--> Album service: A simple API that manage albums and communicate with song service
+-> Album service: A simple API that manage albums and communicate with song service using OpenFeign
+
+This project use also Zipkin for the distributing trace system feature 

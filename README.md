@@ -12,4 +12,4 @@ It contains 5 services:
 
 -> Album service: A simple API that manage albums and communicate with song service using OpenFeign
 
-This project use also Zipkin for the distributing trace system feature 
+This project use also Zipkin for the distributing trace system feature, and Resilience4j for circuit breaking feature

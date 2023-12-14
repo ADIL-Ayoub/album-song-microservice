@@ -35,7 +35,9 @@ management:
     web:
       exposure:
         include: "health , refresh , info"
-
+  tracing:
+    sampling:
+      probability: 1.0
 application:
   param:
     b: 5

@@ -12,3 +12,8 @@ eureka:
 spring:
   application:
     name: discovery-service
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
